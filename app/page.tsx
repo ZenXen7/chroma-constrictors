@@ -112,18 +112,15 @@ export default function Home() {
         <div className="absolute bottom-20 right-10 w-32 h-32 bg-orange-500/5 rounded-full blur-xl animate-pulse delay-1000"></div>
 
         <div className="relative max-w-7xl mx-auto">
-          <div className="text-center mb-16 sm:mb-20 lg:mb-24">
+          <div className="text-center mb-12 sm:mb-16 lg:mb-20">
             <div className="animate-fade-in-up">
               {/* Section badge */}
               <div className="inline-flex items-center px-4 py-2 bg-orange-500/10 border border-orange-500/20 rounded-full text-orange-400 text-sm font-medium backdrop-blur-sm mb-6 animate-fade-in-up">
                 <span className="w-2 h-2 bg-orange-500 rounded-full mr-2 animate-pulse"></span>
                 Gallery Collection
               </div>
-              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 bg-gradient-to-r from-red-400 via-orange-400 to-red-600 bg-clip-text text-transparent animate-gradient">
-                Our Beautiful Snakes
-              </h2>
               <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed opacity-90">
-                Each snake in our collection is carefully selected for their beauty, health, and temperament. Explore our stunning varieties below.
+                Each snake in our collection is carefully selected for their beauty, health, and temperament.
               </p>
             </div>
           </div>
