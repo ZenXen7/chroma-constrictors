@@ -80,22 +80,16 @@ export default function Home() {
             Premium snakes with exceptional care. Discover the beauty and wonder of these magnificent creatures through our carefully curated collection.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center animate-fade-in-up delay-400">
+          <div className="flex justify-center animate-fade-in-up delay-400">
             <a
-              href="#gallery"
+              href="#contact"
               className="group relative px-8 py-4 bg-gradient-to-r from-red-500 to-red-600 text-white rounded-full hover:from-red-600 hover:to-red-700 active:from-red-700 active:to-red-800 transition-all duration-300 font-medium text-lg shadow-xl hover:shadow-2xl hover:shadow-red-500/50 transform hover:-translate-y-3 hover:scale-110 active:scale-95 active:translate-y-0 overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
               <span className="relative flex items-center gap-2">
-                Explore Our Snakes
+                Get in Touch
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
               </span>
-            </a>
-            <a
-              href="#contact"
-              className="group px-8 py-4 border-2 border-gray-600 text-gray-300 rounded-full hover:bg-gray-800 hover:border-red-500 active:bg-gray-900 active:border-red-600 transition-all duration-300 font-medium text-lg backdrop-blur-sm hover:-translate-y-3 hover:scale-110 active:scale-95 active:translate-y-0 hover:shadow-xl hover:shadow-red-500/25"
-            >
-              <span className="group-hover:text-red-400 group-active:text-red-500 transition-colors duration-300">Get in Touch</span>
             </a>
           </div>
         </div>
